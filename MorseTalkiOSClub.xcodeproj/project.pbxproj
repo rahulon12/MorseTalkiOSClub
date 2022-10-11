@@ -11,6 +11,8 @@
 		B7B4238E28F51E720099B38E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4238D28F51E720099B38E /* ContentView.swift */; };
 		B7B4239028F51E740099B38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B4238F28F51E740099B38E /* Assets.xcassets */; };
 		B7B4239328F51E740099B38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B4239228F51E740099B38E /* Preview Assets.xcassets */; };
+		B7B4239A28F51FA70099B38E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4239928F51FA70099B38E /* CameraViewController.swift */; };
+		B7B4239C28F520870099B38E /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4239B28F520870099B38E /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B7B4238D28F51E720099B38E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7B4238F28F51E740099B38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B4239228F51E740099B38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7B4239928F51FA70099B38E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B7B4239B28F520870099B38E /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B7B4238B28F51E720099B38E /* MorseTalkiOSClubApp.swift */,
 				B7B4238D28F51E720099B38E /* ContentView.swift */,
+				B7B4239928F51FA70099B38E /* CameraViewController.swift */,
+				B7B4239B28F520870099B38E /* CameraController.swift */,
 				B7B4238F28F51E740099B38E /* Assets.xcassets */,
 				B7B4239128F51E740099B38E /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				B7B4238E28F51E720099B38E /* ContentView.swift in Sources */,
 				B7B4238C28F51E720099B38E /* MorseTalkiOSClubApp.swift in Sources */,
+				B7B4239C28F520870099B38E /* CameraController.swift in Sources */,
+				B7B4239A28F51FA70099B38E /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = 6MTCHYNPAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MorseTalk requires access to the camera in order to identify different hand poses and perform translation.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +308,7 @@
 				DEVELOPMENT_TEAM = 6MTCHYNPAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MorseTalk requires access to the camera in order to identify different hand poses and perform translation.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
