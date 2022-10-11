@@ -13,6 +13,7 @@
 		B7B4239328F51E740099B38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B4239228F51E740099B38E /* Preview Assets.xcassets */; };
 		B7B4239A28F51FA70099B38E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4239928F51FA70099B38E /* CameraViewController.swift */; };
 		B7B4239C28F520870099B38E /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4239B28F520870099B38E /* CameraController.swift */; };
+		B7B4239E28F5250A0099B38E /* HandGestureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B4239D28F5250A0099B38E /* HandGestureProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B7B4239228F51E740099B38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7B4239928F51FA70099B38E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		B7B4239B28F520870099B38E /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		B7B4239D28F5250A0099B38E /* HandGestureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B7B4238D28F51E720099B38E /* ContentView.swift */,
 				B7B4239928F51FA70099B38E /* CameraViewController.swift */,
 				B7B4239B28F520870099B38E /* CameraController.swift */,
+				B7B4239D28F5250A0099B38E /* HandGestureProcessor.swift */,
 				B7B4238F28F51E740099B38E /* Assets.xcassets */,
 				B7B4239128F51E740099B38E /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B4239E28F5250A0099B38E /* HandGestureProcessor.swift in Sources */,
 				B7B4238E28F51E720099B38E /* ContentView.swift in Sources */,
 				B7B4238C28F51E720099B38E /* MorseTalkiOSClubApp.swift in Sources */,
 				B7B4239C28F520870099B38E /* CameraController.swift in Sources */,
